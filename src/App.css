@@ -1,0 +1,99 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1c6ec6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.auth-inner {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-icon .icon {
+  cursor: pointer;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px; /* Adjust this value as needed */
+  margin-left: 20px;
+}
+
+.search-bar .icon {
+  margin-right: 5px;
+}
+
+.search-input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .icon {
+  margin-left: 50px; /* Spacing between icons */
+  cursor: pointer;
+}
+
+/* Optional: Additional styling for active states or hover effects */
+.header-right .icon:hover {
+  color: #1c6ec6; /* Change color on hover */
+}
+
+.header-right .icon:last-child {
+  margin-right: 0; /* Remove margin from the last icon if needed */
+}
